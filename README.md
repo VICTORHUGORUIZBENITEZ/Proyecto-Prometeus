@@ -198,8 +198,8 @@ def modelar_fatiga_pes_prometeo():
     print(f"Esfuerzo Alternante por Oscilación (σ_a)     : {sigma_a / 1e6:.2f} MPa")
     print(f"Límite de Fatiga Endurante Corregido (S_e)   : {Se / 1e6:.2f} MPa")
     print("-"*60)
-    print(f"✅ Factor de Seguridad Estructural (Soderberg): {N_f_soderberg:.2f}")
-    print(f"✅ Factor de Seguridad a la Rotura (Goodman)  : {N_f_goodman:.2f}")
+    print(f" Factor de Seguridad Estructural (Soderberg): {N_f_soderberg:.2f}")
+    print(f" Factor de Seguridad a la Rotura (Goodman)  : {N_f_goodman:.2f}")
     print("="*60)
     
     if N_f_soderberg >= 2.0:
@@ -267,8 +267,8 @@ def simular_desgaste_tribologico_pes():
     print(f"Fuerza Normal de Contacto en Polea    : {F_normal / 1e3:.2f} kN")
     print(f"Distancia Total Deslizada (80 Años)  : {distancia_deslizada_total:.2f} metros")
     print("-"*60)
-    print(f"📉 Pérdida Lineal en la Garganta     : {espesor_desgastado_mm:.3f} mm")
-    print(f"⚠️ Masa Micro-Metálica Desprendida   : {masa_desprendida_kg:.3f} kg")
+    print(f" Pérdida Lineal en la Garganta     : {espesor_desgastado_mm:.3f} mm")
+    print(f" Masa Micro-Metálica Desprendida   : {masa_desprendida_kg:.3f} kg")
     print("="*60)
     
     if espesor_desgastado_mm < 2.0:
@@ -333,17 +333,17 @@ def simular_eficiencia_solar_prometeo():
     print(f"Potencia Nominal Teórica Instalada (STC) : {P_total_stc:.2f} MW")
     print(f"Condición de Radiación de Diseño         : {G_irradiance:.0f} W/m²")
     print("-"*60)
-    print("🔴 ESCENARIO A: SUELO DE ROCA DESNUDA")
+    print(" ESCENARIO A: SUELO DE ROCA DESNUDA")
     print(f"   Temperatura Operativa de la Celda     : {T_cell_roca:.2f} °C")
     print(f"   Eficiencia Térmica del Sistema        : {eficiencia_relativa_roca * 100:.2f} %")
     print(f"   Potencia Real Entregada               : {P_neta_roca:.3f} MW")
     print("-"*60)
-    print("🟢 ESCENARIO B: CÉSPED DE ALTA DENSIDAD (NBS)")
+    print(" ESCENARIO B: CÉSPED DE ALTA DENSIDAD (NBS)")
     print(f"   Temperatura Operativa de la Celda     : {T_cell_cesped:.2f} °C")
     print(f"   Eficiencia Térmica del Sistema        : {eficiencia_relativa_cesped * 100:.2f} %")
     print(f"   Potencia Real Entregada               : {P_neta_cesped:.3f} MW")
     print("-"*60)
-    print(f"✅ POTENCIA NETA ENERGÉTICA RECUPERADA    : {potencia_recuperada_kW:.2f} kW")
+    print(f" POTENCIA NETA ENERGÉTICA RECUPERADA    : {potencia_recuperada_kW:.2f} kW")
     print("="*60)
     
     if potencia_recuperada_kW > 50.0:
@@ -419,12 +419,5 @@ def simular_scada_cerebro_digital():
         print(f"{h:<6}{p_solar:<13.1f}{P_carga_total:<12.1f}{delta_p:<12.1f}{accion_scada:<22}{PES_soc:<12.1f}")
     
     print("="*85)
-
-if __name__ == "__main__":
-    simular_scada_cerebro_digital()
-
-
-
-
 
 *Este manifiesto técnico constituye un registro abierto de prioridad de invención global.*
