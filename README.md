@@ -56,6 +56,8 @@ Inmunización y preservación autónoma del parque solar superficial (4,000 pane
 *   **Disponibilidad de "Cinco Nueves" (99.999% Uptime):** Validada matemáticamente mediante **Simulaciones de Monte Carlo** bajo escenarios climáticos críticos severos, soportada por una arquitectura de redundancia pasiva de tolerancia a fallas **N+1**.
 *   **El Cerebro Digital (SCADA/HMI):** Sistema nervioso central unificado con paneles mecatrónicos interactivos, control biométrico de acceso y un botón maestro físico/digital de Paro de Emergencia Total (aislamiento hidráulico, sellado neumático de conductos AISI 316L y liberación de carga PES).
 *   **Ciclo Cradle-to-Cradle (50 a 80 Años):** Desacoplamiento total entre la infraestructura física fija de soporte y el hardware lógico mutable (servidores actualizables cada 3-5 años sin obras civiles pesadas). El Acero AISI 316L de 3 mm garantiza un valor residual permanente de reciclabilidad y elimina al 100% el uso de celdas de litio o refrigerantes químicos sintéticos, resguardando el acuífero y el suelo de la república de pasivos tóxicos.
+*   ## ⚡ 5.1 Arquitectura Híbrida Eléctrica y Operación Grid-Tied
 
----
+El sistema opera bajo un modelo de microrred híbrida interconectada activamente con la red de transmisión eléctrica de alta tensión, permitiendo flujos bidireccionales de potencia.
+
 *Este manifiesto técnico constituye un registro abierto de prioridad de invención global.*
